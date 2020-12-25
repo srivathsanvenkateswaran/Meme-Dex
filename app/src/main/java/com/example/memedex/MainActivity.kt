@@ -58,7 +58,7 @@ class MainActivity : AppCompatActivity() {
                     ): Boolean {
                         memeProgressBar.visibility = View.GONE
                         emptyStateTextView.visibility = View.VISIBLE
-//                        Toast.makeText(this@MainActivity, "Check your Internet Connection", Toast.LENGTH_LONG)
+                        Toast.makeText(this@MainActivity, "Check your Internet Connection", Toast.LENGTH_LONG).show()
                         return false
                     }
 
